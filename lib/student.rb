@@ -5,11 +5,11 @@ class Student < User
     @knowledge = []
   end
 
-  def learn(knowledge) 
+  def learn(knowledge)
     @knowledge << knowledge
   end
 
-  def knowledge 
+  def knowledge
     @knowledge
   end
 
